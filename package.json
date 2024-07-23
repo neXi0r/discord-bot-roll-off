@@ -1,0 +1,18 @@
+{
+  "name": "discord-bot-roll-off",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@vercel/node": "^3.2.7",
+    "discord.js": "^14.15.3",
+    "git-init": "^1.0.0",
+    "simple-git": "^3.25.0"
+  }
+}

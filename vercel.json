@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/**/*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" }
+  ],
+  "env": {
+    "DISCORD_TOKEN": "@discord_token",
+    "DISCORD_CLIENT_ID": "@discord_client_id",
+    "DISCORD_CLIENT_SECRET": "@discord_client_secret",
+    "REDIRECT_URI": "@redirect_uri"
+  }
+}
